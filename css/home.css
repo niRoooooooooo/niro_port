@@ -42,7 +42,7 @@ nav .menu a{
 header{
   background-color: #FFF8F3;
   background-image: url(../images/developer.png), url(../images/header_bg.png);
-  background-position: top left, bottom right;
+  background-position: 23px 38px, bottom right;
   background-repeat: no-repeat;
   padding-top: 50px;
   
@@ -201,11 +201,10 @@ nav{
 
 .resume-container{
     display: flex;
-    justify-content: space-between;
     width: 60%;
     max-width: 1140px;
     margin: 0 auto;
-    gap: 71px;
+    gap: 24px;
 }
 
 .section-title{
@@ -217,12 +216,7 @@ nav{
 
 .resume-card{
     max-width: 511px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.resume-card1{
-    max-width: 511px;
+    margin-right: 47px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -233,29 +227,10 @@ nav{
     line-height: 28px;
 }
 
-.resume-card1 p{
-    font-size: 16px;
-    color: #757575;
-    line-height: 28px;
-}
-
 .resume-card h4{
     font-size: 20px;
     margin-bottom: 20px;
     color: #757575;
-}
-
-.resume-card1 h4{
-    font-size: 20px;
-    margin-bottom: 20px;
-    color: #757575;
-}
-
-.resume-card1 h3{
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #474747;
 }
 .resume-card h3{
     font-size: 25px;
@@ -263,29 +238,56 @@ nav{
     margin-bottom: 10px;
     color: #474747;
 }
-
-#contact{
-    padding-top: 130px;
-    padding-bottom: 130px;
-    padding-left: 230px;
-    padding-right: 230px;
-    margin-top: 113px;
-    background-color: #FFF8F3;
+.align-center{
+    text-align: center;
+    margin-top: 20px;
 }
 
-.con-msg{
+
+
+
+
+#footer-container h2{
     font-size: 35px;
     font-weight: bold;
     color: #181818;
     margin-bottom: 20px;
 }
-.con p{
+#footer-container p{
     font-size: 16px;
     color: #474757;
     line-height: 28px;
     margin-bottom: 30px;
 }
 
-.details{
+
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+#footer-container{
+    width: 60%;
+    max-width: 1140px;
+    margin: 0 auto;
     display: flex;
+    gap: 116px;
+}
+
+.con{
+    max-width: 562px;
+}
+
+.icon a{
+    margin-right: 24px;
+}
+
+.form input[type="text"], .form textarea {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
 }
